@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+      var lower=parseInt (prompt("Enter lower limit"));
+      var upper=parseInt(prompt("Enter upper limit"));
+      var evensum=0;
+      var oddsum=0;
+
+     for(var i=lower;i<=upper;i++)
+     {
+        if(i%2==0)
+        evensum=evensum+i;
+        else
+        oddsum=oddsum+i;
+     }
+     document.write("sum of even :"+evensum+"<br>");
+     document.write("sum of odd :"+oddsum);
+
+           
+        </script>
+    </head>
+</html>

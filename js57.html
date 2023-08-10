@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script>
+            var pin=1111;
+            var guesspin=0;
+            var attempts=0;
+            do{
+                guesspin=parseInt(prompt("Enter pin"));
+                attempts++;
+                if(guesspin==pin){
+                    break;
+                }}
+                
+                    while(attempts<5);
+                    if(pin==guesspin)
+                    {
+                        document.write("logged in successfully");
+                    }
+                    else{
+                        document.write("document blocked reset password");
+                    }
+            
+            
+        </script>
+    </head>
+</html>

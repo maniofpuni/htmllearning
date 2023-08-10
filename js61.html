@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script>
+            var num=parseInt(prompt("Enter number"));
+            var num=1234;
+            var reverse=0;
+            document.write("Original Number :" +num+"<br>");
+            while(num!=0)
+            {
+                reverse=(reverse*10)+(num%10);
+                num=parseInt(num/10);
+            }
+            document.write("Reverse Number :" +reverse);
+        </script>
+    </head>
+</html>

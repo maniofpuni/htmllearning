@@ -1,0 +1,5 @@
+<html>
+<head>
+<script>
+ var s1=paresInt(Prompt("enter marks in subject 1))
+</script>

@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script>
+            var s1=parseInt(prompt("Enter marks in subject 1"));
+            var s2=parseInt(prompt("Enter marks in subject 2"));
+            var s3=parseInt(prompt("Enter marks in subject 3"));
+            var s4=parseInt(prompt("Enter marks in subject 4"));
+            var s5=parseInt(prompt("Enter marks in subject 5"));
+
+            var total=s1+s2+s3+s4+s5;
+            
+            
+
+
+            var avg=total/5;
+            document.write("<h2>Total marks : "+total+"<br>");
+                document.write("avg marks : "+avg+"<br>");
+                document.write("<h2>Gradings:<br>");
+
+                if(avg>=85)
+                {
+                    document.write("A");
+                }
+                else if(avg>=70 && avg<85)
+                {
+                    document.write("B");
+                }
+            else if(avg>=55 && avg<70)
+            {
+               document.write("C");
+            }
+            else {
+                document.write("D");
+
+            }
+            document.write("<br>Final Result :<br>");
+            if(s1<35 || s2<35 || s3<35 || s4<35 || s5<35)
+            {
+                document.write("<font color='red'>FAIL</font>")
+            }
+            else
+            {
+              document.write("<font color='green'>PASS</font>")  
+            }
+
+
+        </script>
+    </head>
+</html>
